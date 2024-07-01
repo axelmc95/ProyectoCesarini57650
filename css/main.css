@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 .encabezado{
     /*border: 10px;
     border-style:outset;
@@ -16,7 +14,6 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: block;
 */
-
     padding: 1rem;
     border-style:outset;
     border-color: black;
@@ -29,7 +26,7 @@
 }
 
 .logo{
-    width: 5rem;
+    width: 8rem;
     background-color: red;
 }
 
