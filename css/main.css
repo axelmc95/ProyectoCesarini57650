@@ -1,11 +1,13 @@
 *{
-    margin: 10px;
-    background-color: rgb(224, 48, 48);
-    color: rgb(1, 1, 70);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+
 .encabezado{
-    border: 10px;
+    /*border: 10px;
     border-style:outset;
     border-color: black;
     background-color: white;
@@ -13,35 +15,45 @@
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: block;
+*/
+
+    padding: 1rem;
+    border-style:outset;
+    border-color: black;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.titulo-principal{
-    background-color: white;
-    text-decoration:solid;
+.logo{
+    width: 5rem;
+    background-color: red;
+}
+
+.lista-principal{
+    list-style-type: none;
+    display: flex;
+    background-color: red;
 }
 
 header a{
     text-decoration: none;
-    background-color: white;
+    color: black;
+    background-color: red;
     padding: 0px;
     margin: 30px;
 
-}
-main{
-    text-align: left;
-}
-img{
-    display: block;
-    margin: auto;
-    padding: auto;
-    width: 300px;
 }
 
 footer{
     padding: 20px;
     margin: 20px;
-    text-align: center;
+    text-align: end;
     background-color: rgb(1, 1,70);
+    border: 4rem;
 }
 
 footer a{
@@ -50,3 +62,34 @@ footer a{
     background-color: rgb(1, 1,70);
 }
 
+.atajan{
+    width: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.defensores{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.medio-campo{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.delantera{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
