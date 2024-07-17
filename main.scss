@@ -8,7 +8,6 @@
     padding: 1rem;
     border-style:outset;
     border-color: black;
-    border-radius: 8px;
     background-color: red;
     display: flex;
     align-items: center;
@@ -22,25 +21,10 @@
     background-color: red;
 }
 
-.titulo-principal{
-    margin: 0 auto;
-}
-
 .lista-principal{
     list-style-type: none;
     display: flex;
-    text-align: center;
     background-color: red;
-    margin: 0 auto;
-}
-
-ul li a:hover{
-    background-color: rgb(1, 1,70);
-    color: white;
-    border-radius: 8px;
-    font-size: 18px;
-    transition: 0.5s;
-    padding: 5px;
 }
 
 header a{
@@ -58,22 +42,12 @@ footer{
     text-align: end;
     background-color: rgb(1, 1,70);
     border: 4rem;
-    border-radius: 8px;
 }
 
 footer a{
     color: white;
     text-decoration: none;
     background-color: rgb(1, 1,70);
-}
-
-a:hover{
-    background-color: red;
-    color: black;
-    border-radius: 8px;
-    font-size: 18px;
-    transition: 0.5s;
-    padding: 5px;
 }
 
 .atajan{
@@ -106,21 +80,4 @@ a:hover{
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 1rem;
-}
-
-.cuerpo-pagina{
-    margin: 4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.equipo-1{
-    width: 100%;
-}
-
-.estadio-1{
-    width: 100%;
-}
-
-.historia-club{
-    display: flex;
 }
