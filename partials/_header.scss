@@ -1,0 +1,69 @@
+$color-principal:rgb(1, 1,70);
+$color-secundario:red;
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.encabezado{
+    padding: 1rem;
+    border-style:outset;
+    border-color: black;
+    border-radius: 8px;
+    background-color: $color-secundario;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    .logo{
+        width: 8rem;
+        background-color: $color-secundario;
+        @include mobile {
+            margin: 0 auto;
+        }
+    }
+    .titulo-principal{
+        margin: 0 auto;
+        font-family: "Josefin Sans", sans-serif;
+        @include mobile {
+            margin: 0 auto;
+        }
+    }
+    .lista-principal{
+        font-size: 20px;
+        font-family: "Roboto Condensed", sans-serif;
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+        background-color: $color-secundario;
+        margin: 0 auto;
+        @include mobile {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    ul li a:hover{
+        background-color: $color-principal;
+        color: white;
+        border-radius: 8px;
+        font-size: 25px;
+        transition: 1s;
+        padding: 5px;
+    }
+}
+
+
+header a{
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: $color-secundario;
+    padding: 0px;
+    margin: 30px;
+
+}

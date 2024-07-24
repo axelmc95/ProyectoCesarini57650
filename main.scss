@@ -1,5 +1,8 @@
-$color-principal:rgb(1, 1,70);
-$color-secundario:red;
+@import "./partials/responsive";
+@import "./partials/footer";
+@import "./partials/header";
+@import "./partials/cuerpo";
+
 
 *{
     margin: 0;
@@ -7,110 +10,7 @@ $color-secundario:red;
     box-sizing: border-box;
 }
 
-h1{
-    font-family: "Josefin Sans", sans-serif;
-    margin: 0 auto;
-}
-
-.encabezado{
-    padding: 1rem;
-    border-style:outset;
-    border-color: black;
-    border-radius: 8px;
-    background-color: $color-secundario;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    .logo{
-        width: 8rem;
-        background-color: $color-secundario;
-    }
-    .titulo-principal{
-        margin: 0 auto;
-        font-family: "Josefin Sans", sans-serif;
-    }
-    .lista-principal{
-        font-family: "Roboto Condensed", sans-serif;
-        list-style-type: none;
-        display: flex;
-        text-align: center;
-        background-color: $color-secundario;
-        margin: 0 auto;
-    }
-    ul li a:hover{
-        background-color: $color-principal;
-        color: white;
-        border-radius: 8px;
-        font-size: 18px;
-        transition: 0.5s;
-        padding: 5px;
-    }
-}
 
 
-header a{
-    font-family: "Roboto Condensed", sans-serif;
-    text-decoration: none;
-    color: black;
-    background-color: $color-secundario;
-    padding: 0px;
-    margin: 30px;
 
-}
 
-footer{
-    font-family: "Roboto Condensed", sans-serif;
-    padding: 20px;
-    margin: 20px;
-    text-align: end;
-    background:linear-gradient(to right, $color-secundario, $color-principal);
-    border: 4rem;
-    border-radius: 8px;
-    a{
-        color: white;
-        text-decoration: none;
-    }  
-    a:hover{
-        background-color: $color-secundario;
-        color: black;
-        border-radius: 8px;
-        font-size: 18px;
-        transition: 0.5s;
-        padding: 5px;
-    }
-}
-
-.cuerpo-pagina{
-    margin: 4rem;
-    font-family: "Roboto Condensed", sans-serif;
-
-}
-
-.equipo-1{
-    width: 100%;
-}
-
-.estadio-1{
-    width: 100%;
-}
-
-.historia-club{
-    display: flex;
-}
-
-.efecto-carousel{
-    width: 600px;
-    margin: 0 auto;
-}
-
-.jugadores{
-    width: 300px;
-    margin-top: 20px;
-}
-
-.plano-estadio{
-    width: 500px;  
-    display: flex;
-}

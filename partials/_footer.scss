@@ -1,0 +1,24 @@
+$color-principal:rgb(1, 1,70);
+$color-secundario:red;
+
+footer{
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 20px;
+    margin: 20px;
+    text-align: end;
+    background:linear-gradient(to right, $color-secundario, $color-principal);
+    border: 4rem;
+    border-radius: 8px;
+    a{
+        color: white;
+        text-decoration: none;
+    }  
+    a:hover{
+        background-color: $color-secundario;
+        color: black;
+        border-radius: 8px;
+        font-size: 25px;
+        transition: 1s;
+        padding: 5px;
+    }
+}
